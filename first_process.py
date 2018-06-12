@@ -48,7 +48,7 @@ data.fillna({"Item_Weight":data["Item_Weight"].mean()},inplace=True)
 
 #checking the current status of  nan values in the dataframe
 nan_descript=data.apply(lambda x: sum(x.isnull()))
-#Now we 0 nan valuesin Item_Weight
+#Now we have 0 nan valuesin Item_Weight
 
 
 data["Outlet_Size"].fillna(method="ffill",inplace=True)
@@ -123,10 +123,9 @@ base1.to_csv("alg0.csv",index=False)
 
 
 '''Very Important Note for creating baseline model
-Seems too naive for you? If you look at the public LB now, you’ll find 4 players below 
-this number. So making baseline models helps in setting a benchmark. 
-If your predictive algorithm is below this, there is something going seriously wrong and \
-you should check your data.'''
+making baseline models helps in setting a benchmark. 
+If your predictive algorithm is below this, there is something going seriously wrong and 
+we  should check your data.'''
 
 #Define target and ID columns:
 target = 'Item_Outlet_Sales'
