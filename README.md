@@ -1,5 +1,5 @@
 # Big-Mart-Sales-Prediction
-A perfect project to learn Data Analytics and apply machine learining algorithms to predict the outlet production sales.
+A perfect project to learn Data Analytics and apply machine learning algorithms to predict the outlet production sales.
 # Given Data sets
   1:-Train.csv
   2:-Test.csv
